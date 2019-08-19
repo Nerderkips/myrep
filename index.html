@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        
+        <script>
+        console = console || {};
+        console.log = function(){};
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+       <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>    
+       <script src="https://code.jquery.com/jquery-3.1.1.js">
+        </script>
+        <script src="./game.js">
+        </script>
+        <script src="./block.js">
+        </script>
+        <script src="./ball.js">
+        </script>
+        <script src="./paddle.js">
+        </script>
+        <script src="./particle.js">
+        </script>
+        <style>
+            body {
+    margin:0;
+    display:flex;
+}
+
+#lvl{
+    position:fixed;
+    left:50%;
+    top:50%;
+    display:none;
+    color:white;
+    text-shadow:5px 2px 3px red;
+}
+        </style>
+    </head>
+    <body>
+        <h1 id="lvl"></h1>
+    </body>
+</html>
